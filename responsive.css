@@ -54,9 +54,8 @@
     .body-head2{
         width: 300px;
     }
-    .show{
-        left: 20px;
-    }
+    
+
     .nav-bar ul{
         flex-direction: row;
     }
@@ -68,16 +67,14 @@
     }
     .project-sec{
         height: 50rem;
+        margin-top: -120px;
     }
     .project1{
         height: 150px;
     }
-    .project-img{
-    margin: 130px;
-        height: 20px;
-        position: relative;
-        top: 0;
-        left: -120px;
+
+    .contact-sec{
+        height: 40rem;
     }
 }
 
@@ -105,20 +102,15 @@
         height: 60rem;
     }
     .project-sec{
-    margin-top: -16rem;
-        height: 45rem;
+    margin-top: -22rem;
+        height: 25rem;
     }
     .project1{
         height: 100px;
     }
-    .project-img{
-    /* margin: 130px; */
-        height: 20px;
-        /* position: relative;
-        top: 0;
-        left: -120px; */
-    }
+  
     .contact-sec{
+        margin-top: -15rem;
         height: 42rem;
     }
    .footer-sec{
@@ -140,5 +132,12 @@
     }
     .project-sec{
         height: 50rem;
+    }
+    .show{
+        left: 50px;
+       
+    }
+    .nav-bar ul{
+        flex-direction: row;
     }
 }
