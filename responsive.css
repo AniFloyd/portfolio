@@ -38,16 +38,23 @@
     }
     .project1{
         height: 168px;
+        
     }
+   
 }
 
 @media only screen and (max-width : 770px) {
     .body-img{
         height: 350px;
     }
+  
     .body-head2{
-        width:420px;
+        width:350px;
     }
+    .project1{
+        height: 150px;
+    }
+    
 }
 
 @media only screen and (max-width : 380px) {
@@ -56,9 +63,7 @@
     }
     
 
-    .nav-bar ul{
-        flex-direction: row;
-    }
+    
     .body-sec1{
         height: 50rem;
     }
@@ -74,7 +79,7 @@
     }
 
     .contact-sec{
-        height: 40rem;
+        height: 150rem;
     }
 }
 
@@ -130,14 +135,24 @@
     .about-sec{
         height: 100rem;
     }
+   
     .project-sec{
         height: 50rem;
     }
     .show{
-        left: 50px;
+        left: 258px;
        
     }
+    
     .nav-bar ul{
-        flex-direction: row;
+        flex-direction: column;
     }
+    .contact-sec{
+        height:37rem;
+    }
+    .footer-sec{
+        height: 80px;
+        padding: 12px;
+    margin-top: -15px;
+       }
 }
