@@ -178,7 +178,7 @@ box-shadow: inset 5px 5px 10px #c8c7c3,
     width: 100%;
 }
 #contact{
-    height: 26rem;
+    height: 60em;
     
 }
 .contact-head{
@@ -213,11 +213,23 @@ box-shadow:  -5px 5px 10px #959491,
            font-weight: 600;
 }
 #NameArea{
-    box-shadow: 2px 2px 4px #899fe1;
+    border-radius: 2px;
+    background: #e1e0db;
+    box-shadow: inset 23px 23px 56px #cbcac5,
+                inset -23px -23px 56px #f8f6f1;
+}
+#PasswordArea{
+    border-radius: 2px;
+    background: #e1e0db;
+    box-shadow: inset 23px 23px 56px #cbcac5,
+                inset -23px -23px 56px #f8f6f1;
 }
 
 #NoteArea{
-    box-shadow: 2px 2px 4px #899fe1;
+    border-radius: 2px;
+    background: #e1e0db;
+    box-shadow: inset 23px 23px 56px #cbcac5,
+                inset -23px -23px 56px #f8f6f1;
     height: 80px;
 }
 
@@ -252,4 +264,11 @@ box-shadow:  -5px 5px 10px #959491,
     box-shadow: inset 5px 5px 12px #c6c5c1,
                 inset -5px -5px 12px #fcfbf5;
                 
+}
+.contact-head-4{
+    margin-left: -17rem;    
+    text-shadow: 2px 2px 2px #899fe1;
+}
+.form-head{
+    text-shadow: 2px 2px 2px #899fe1;
 }

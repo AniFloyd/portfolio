@@ -93,6 +93,12 @@
     #card-sec > div:nth-child(n) > div > div{
         justify-content: center;
     }
+    #contact{
+        height: 92rem;
+    }
+    .contact-head-4{
+        margin-left: -60px;
+    }
     
 }
 
@@ -117,10 +123,12 @@
         height: 150px;
     }
     #contact{
-        height: 50rem;
+        height: 90rem;
         margin-top: -4rem;
     }
-
+    .contact-head-4{
+        margin-left: -2px;
+    }
    
 }
 
