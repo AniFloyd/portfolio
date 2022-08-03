@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #899fe1;
+}
 .nav-bar{
     background-color: #e1e0db;
     display: flex;
@@ -118,9 +120,16 @@ box-shadow:  -5px 5px 10px #959491,
     text-shadow: 2px 3px 2px #899fe1 ;
     font-family:'Roboto Condensed', sans-serif;
 }
-.card-1{
+/* .card-1{
     box-shadow: 1px 0px 2px 1px #899fe1;
 
+} */
+#about > div > div:nth-child(n){
+    border-radius: 0px;
+background: #e1e0db;
+box-shadow: inset 5px 5px 10px #c8c7c3,
+            inset -5px -5px 10px #faf9f3;
+                padding: 12px;
 }
 .card-text{
     padding: 8px;
@@ -165,8 +174,12 @@ box-shadow:  -5px 5px 10px #959491,
 
 .contact-sec{
     background-color:#e1e0db;
-    height: 30rem;
+    height: 40rem;
     width: 100%;
+}
+#contact{
+    height: 26rem;
+    
 }
 .contact-head{
     text-shadow: 2px 2px 4px #899fe1;
@@ -177,27 +190,66 @@ box-shadow:  -5px 5px 10px #959491,
     font-size: 55px;
     padding: 8px;
 }
-.contact-head2{
+/* .contact-head2{
     color: black;
-}
-.footer-sec{
-    height: 80px;
-    width: 100%;
-    background-color: #899fe1;
-    position: relative;
-    top: 9rem;
-   padding: 10px;
-   text-align: center;
-    }
+} */
 
-.footer-icons{
-    font-size: 45px;
-    
-}
 .contact-head3{
     text-shadow: 2px 2px 2px #899fe1;
 }
-.smile-icon{
+/* .smile-icon{
     font-size: 35px;
     color:black;
+} */
+.contact-btn{
+    padding: 8px;
+    width: 135px;
+    border-radius: 82px;
+background: linear-gradient(225deg, #f1f0ea, #cbcac5);
+box-shadow:  -5px 5px 10px #959491,
+           5px -5px 10px #ffffff;
+           border: none;
+           outline: none;
+           font-weight: 600;
+}
+#NameArea{
+    box-shadow: 2px 2px 4px #899fe1;
+}
+
+#NoteArea{
+    box-shadow: 2px 2px 4px #899fe1;
+    height: 80px;
+}
+
+.card-btn{
+    background-color: #e1e0db;
+
+  width: 120px;
+  height: 2rem;
+    border: 2px solid #899fe1;
+    border-radius: 12px;
+    transition: transform;
+    transition: background-color;
+    transition-duration: 1s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-btn:hover{
+    background-color: #899fe1;
+    color: #e1e0db;
+}
+.card-btn:active{
+    transform: scale(.95);
+    
+}
+.contact-para{
+    font-weight: bolder;
+}
+#card-sec > div > div > div{
+    background-color: #e1e0db;
+    border-radius: 8px;
+    background: #e1e0db;
+    box-shadow: inset 5px 5px 12px #c6c5c1,
+                inset -5px -5px 12px #fcfbf5;
+                
 }

@@ -1,0 +1,20 @@
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click",function(){
+    let NoteArea = document.getElementById("NoteArea")
+    let notes = localStorage.getItem("notes");
+
+    if(notes == null){
+        notesObj = []
+       
+    }
+    else{
+        notesObj = JSON.parse(notes)
+    }
+    notesObj.push(NoteArea.value)
+    localStorage.setItem("notes", JSON.stringify(notesObj))
+    NoteArea.value = ""
+    console.log(notes);
+
+
+})

@@ -54,73 +54,12 @@
     .project1{
         height: 150px;
     }
-    
-}
-
-@media only screen and (max-width : 380px) {
-    .body-head2{
-        width: 300px;
-    }
-    
-
-    
-    .body-sec1{
-        height: 50rem;
-    }
     .about-sec{
-        height:93rem;
+        height: 35rem;
     }
     .project-sec{
-        height: 50rem;
-        margin-top: -120px;
+        height: 30rem;
     }
-    .project1{
-        height: 150px;
-    }
-
-    .contact-sec{
-        height: 150rem;
-    }
-}
-
-@media only screen and (max-width : 285px) {
-    .nav-btn{
-        width: 80px;
-        font-size: smaller;
-        margin-left: 4px;
-    }
-    .show{
-        left: -15px;
-    }
-    .body-head2{
-        width: 240px;
-    }
-    .body-img{
-        height: 240px;
-    }
-    .body-sec1{
-        height: 20rem;
-    }
-   
-    .about-sec{
-      margin-top: -8rem;
-        height: 60rem;
-    }
-    .project-sec{
-    margin-top: -22rem;
-        height: 25rem;
-    }
-    .project1{
-        height: 100px;
-    }
-  
-    .contact-sec{
-        margin-top: -15rem;
-        height: 42rem;
-    }
-   .footer-sec{
-    height: 120px;
-   }
 }
 
 @media only screen and (max-width : 420px) {
@@ -147,12 +86,43 @@
     .nav-bar ul{
         flex-direction: column;
     }
-    .contact-sec{
-        height:37rem;
+    #contact{
+        height:50rem;
+        margin-top: -4rem;
     }
-    .footer-sec{
-        height: 80px;
-        padding: 12px;
-    margin-top: -15px;
-       }
+    #card-sec > div:nth-child(n) > div > div{
+        justify-content: center;
+    }
+    
 }
+
+@media only screen and (max-width : 380px) {
+    .body-head2{
+        width: 300px;
+    }
+    
+
+  
+    .body-sec1{
+        height: 50rem;
+    }
+    .about-sec{
+        height:93rem;
+    }
+    .project-sec{
+        height: 50rem;
+        margin-top:15px;
+    }
+    .project1{
+        height: 150px;
+    }
+    #contact{
+        height: 50rem;
+        margin-top: -5rem;
+    }
+
+   
+}
+
+
+
